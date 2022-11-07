@@ -1,0 +1,45 @@
+    1  docker start centos7
+    2  cd /loot
+    3  ls /
+    4  pwd
+    5  cd /root
+    6  ls
+    7  cd server_lesson
+    8  git branch
+    9  git revert working
+   10  git push origin working
+   11  git status
+   12  ls
+   13  git add linux_practice2
+   14  git commit -m 'delete'
+   15  ls
+   16  git push orign working
+   17  git push origin working
+   18  mkdir linux_practice2
+   19  cd linux_practice2
+   20  touch documents
+   21  cd documents
+   22  ls
+   23  rm documents
+   24  mkdir documents
+   25  ls
+   26  cd documents
+   27  touch gizumo{01..50}.md
+   28  ls
+   29  cd ..
+   30  mv documents/gizumo{20..40}.md trash
+   31  ls
+   32  mkdir trash
+   33  ls
+   34  mv documents/gizumo{20..40}.md trash
+   35  cd trach
+   36  cd trash
+   37  ls
+   38  cd ..
+   39  .gitignore
+   40  touch .gitignore
+   41  ls -a
+   42  touch exec_command.log
+   43  s
+   44  ls
+   45  history 300 >> exec_command.log
